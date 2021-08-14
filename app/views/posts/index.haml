@@ -1,7 +1,10 @@
-%h1 Hi there! This is the Index Page.
-- @posts.each do |post|
-    %h2= link_to post.title, post
-    %p
-    Published at
+%h1 Threads:
+#posts
+ - @posts.each do |post|
+  .post
+   %h2.title= link_to post.title, post
+   %p.date
+    Published
     = time_ago_in_words(post.created_at)
-    = link_to "New Post", new_post_path
+    ago by
+    = post.user.email
