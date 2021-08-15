@@ -224,7 +224,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.4)
-  sass-rails (>= 6)
+  sass-rails (>= 2.1.0)
   selenium-webdriver
   simple_form (~> 4.0, >= 4.0.1)
   sqlite3 (~> 1.4)
