@@ -1,24 +1,22 @@
-# README
+# EduHub's productivity forum
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Ruby on Rails forum that is part of [EduHub](https://github.com/vladcranga/ulhacks-hackaton).
 
-Things you may want to cover:
+### Ruby version
 
-* Ruby version
+The Ruby version used in this project is 3.0.2.
 
-* System dependencies
+### System dependencies
 
-* Configuration
+In order for this forum to work, you need:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+- A recent version of Ruby
+- The 'bundler' Ruby gem.
 
 * Deployment instructions
 
-* ...
+- Clone the repository
+- Open a terminal in the directory where it was cloned
+- Run 'bundle install', which will install the necessary gems
+- Then run 'rails s' to run the forum on localhost
+- Open http://localhost:3000/ to visit the forum
