@@ -19,4 +19,5 @@ In order for this forum to work, you need:
 - Open a terminal in the directory where it was cloned
 - Run 'bundle install', which will install the necessary gems
 - Then run 'rails s' to run the forum on localhost
+  - If you get messages that you need nodejs(add to path as well), yarn, etc., install them
 - Open http://localhost:3000/ to visit the forum
