@@ -10,8 +10,8 @@ The Ruby version used in this project is 3.0.2.
 
 In order for this forum to work, you need:
 
-- A recent version of Ruby
-- The 'bundler' Ruby gem.
+- A recent version of [Ruby](https://www.ruby-lang.org/en/)
+- The 'bundler' Ruby gem: 'gem install bundler'
 
 ### Deployment instructions
 
