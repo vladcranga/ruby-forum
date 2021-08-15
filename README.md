@@ -13,7 +13,7 @@ In order for this forum to work, you need:
 - A recent version of Ruby
 - The 'bundler' Ruby gem.
 
-* Deployment instructions
+### Deployment instructions
 
 - Clone the repository
 - Open a terminal in the directory where it was cloned
